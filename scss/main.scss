@@ -263,7 +263,7 @@ html {
         display: block;
         background-color: #333;
         opacity: .8;
-        background-image: url(/dist/img/scroll1.jpg);
+        background-image: url("./img/scroll1.jpg");
         background-size: cover;
         -webkit-transform-origin: center center 0;
         -webkit-transform: translateZ(-1px) scale(2);
@@ -366,7 +366,7 @@ html {
         display: block;
         background-color: #333;
         opacity: .9;
-        background-image: url(/dist/img/scroll2.jpg);
+        background-image: url("./img/scroll2.jpg");
         background-size: cover;
         -webkit-transform-origin: center center 0;
         -webkit-transform: translateZ(-1px) scale(2);
