@@ -1,0 +1,201 @@
+@media (max-width: 1370px) {
+  #about-main .body-text {
+    padding: 10rem 15rem 3rem 4rem; }
+  .scroll-main {
+    box-sizing: border-box;
+    min-height: 40vw;
+    padding: 0 0 15% 0; }
+    .scroll-main::before {
+      background-image: url(/dist/img/scroll1.jpg);
+      min-height: 40vh; }
+  #news-main .side-title {
+    height: 1600px;
+    flex: 27%; }
+    #news-main .side-title .side-container {
+      padding: 8rem 2rem 3rem 7rem; }
+      #news-main .side-title .side-container .side-header {
+        font-size: 3rem; }
+  #news-main .body-text {
+    padding: 8rem 2rem 3rem 5rem; }
+  #contact-main .side-title {
+    height: 900px;
+    flex: 34.5%; }
+    #contact-main .side-title .side-container {
+      padding: 10rem 4rem 3rem 6rem; }
+  #contact-main .body-text {
+    padding: 8rem 7rem 3rem 6.2rem; } }
+
+@media (max-width: 1025px) {
+  .main-title h1 {
+    font-size: 4rem; }
+  .services {
+    height: 1000px; }
+    .services .container {
+      margin: 5% 10% 0 0; }
+      .services .container .side-title .side-container {
+        padding: 5rem 0 3rem 8rem; }
+      .services .container .services-div {
+        padding: 0 1rem 0 6rem; }
+  #about-main .side-title {
+    height: 950px; }
+    #about-main .side-title .side-container {
+      padding: 10rem 2rem 3rem 8rem; }
+  #about-main .body-text {
+    padding: 8rem 3rem 3rem 3rem; }
+    #about-main .body-text .facts .fact-text {
+      padding: 1rem 1rem;
+      width: 150px; }
+  .scroll-main-2 {
+    box-sizing: border-box;
+    min-height: 40vw;
+    padding: 0 0 15% 0; }
+    .scroll-main-2::before {
+      min-height: 60vh; }
+  #news-main .side-title {
+    height: 1600px;
+    flex: 36%; }
+    #news-main .side-title .side-container {
+      padding: 8rem 2rem 3rem 7rem; }
+      #news-main .side-title .side-container .side-header {
+        font-size: 3rem; }
+  #news-main .body-text {
+    padding: 8rem 2rem 3rem 5rem; }
+  #skills-main .side-title {
+    height: 1100px; }
+    #skills-main .side-title .side-container {
+      padding: 10rem 2rem 3rem 8rem; }
+  #skills-main .body-text {
+    padding: 8rem 2rem 3rem 2rem; }
+    #skills-main .body-text .skills-body-main {
+      padding: 0 2rem; }
+  #contact-main .side-title {
+    height: 900px; }
+    #contact-main .side-title .side-container {
+      padding: 10rem 4rem 3rem 6rem; }
+  #contact-main .body-text {
+    padding: 8rem 7rem 3rem 6.2rem; } }
+
+@media (max-width: 820px) {
+  .main-title {
+    top: 30%; }
+    .main-title h1 {
+      font-size: 3rem; }
+  .services .container {
+    display: block;
+    margin: 10% 0; }
+    .services .container .side-title {
+      height: 300px; }
+      .services .container .side-title .side-container {
+        padding: 5rem 0;
+        text-align: center; }
+        .services .container .side-title .side-container .side-header {
+          word-spacing: normal; }
+    .services .container .services-div {
+      padding: 2rem 3rem 0 4rem; }
+  #about-main {
+    display: block; }
+    #about-main .side-title {
+      height: 300px; }
+      #about-main .side-title .side-container {
+        padding: 5rem 0;
+        text-align: center; }
+        #about-main .side-title .side-container .side-header {
+          word-spacing: normal; }
+    #about-main .body-text {
+      padding: 4rem 4rem 3rem 3rem; }
+      #about-main .body-text .facts .fact-text {
+        padding: 1rem 1rem;
+        width: 170px; }
+  #news-main {
+    display: block; }
+    #news-main .side-title {
+      height: 300px; }
+      #news-main .side-title .side-container {
+        padding: 5rem 0;
+        text-align: center; }
+        #news-main .side-title .side-container .side-header {
+          word-spacing: normal; }
+    #news-main .body-text {
+      padding: 4rem 3rem 3rem 3rem; }
+  #skills-main {
+    display: block; }
+    #skills-main .side-title {
+      height: 300px; }
+      #skills-main .side-title .side-container {
+        padding: 5rem 0;
+        text-align: center; }
+        #skills-main .side-title .side-container .side-header {
+          word-spacing: normal; }
+    #skills-main .body-text {
+      padding: 4rem 3rem 3rem 3rem;
+      margin-bottom: 3rem; }
+      #skills-main .body-text .skills-body-main {
+        margin-bottom: 4rem; }
+  #contact-main {
+    display: block; }
+    #contact-main .side-title {
+      height: 300px; }
+      #contact-main .side-title .side-container {
+        padding: 5rem 0;
+        text-align: center; }
+        #contact-main .side-title .side-container .side-header {
+          word-spacing: normal; }
+    #contact-main .body-text {
+      padding: 4rem 7rem 3rem 7rem;
+      margin-bottom: 3rem; } }
+
+@media (max-width: 420px) {
+  #main-nav .container {
+    padding: 1.5rem .5rem 1.5rem .5rem; }
+  #main-nav li {
+    padding: .2rem .4rem; }
+  .main-title {
+    top: 15%; }
+    .main-title h1 {
+      font-size: 3rem; }
+  .services {
+    height: 1700px; }
+    .services .container {
+      display: block;
+      margin: 10% 0; }
+      .services .container .side-title {
+        height: 500px; }
+        .services .container .side-title .side-container {
+          padding: 5rem 0;
+          text-align: center; }
+          .services .container .side-title .side-container .side-header {
+            word-spacing: normal; }
+      .services .container .services-div {
+        padding: 2rem 3rem 0 4rem; }
+  #about-main .side-title {
+    height: 450px; }
+    #about-main .side-title .side-container {
+      padding: 5rem 2rem; }
+  #about-main .body-text .facts {
+    display: block;
+    padding: 0 2rem 2rem 2rem; }
+    #about-main .body-text .facts .fact-text {
+      margin-bottom: 3rem; }
+  #news-main .side-title {
+    height: 450px; }
+  #news-main .body-text .blogs {
+    grid-template-columns: repeat(1, 1fr); }
+  #skills-main .side-title {
+    height: 450px; }
+  #skills-main .body-text {
+    padding: 4rem 2rem; }
+    #skills-main .body-text .skills-body-main {
+      padding: 0 .3rem; }
+    #skills-main .body-text .skill {
+      padding: 1rem 0; }
+      #skills-main .body-text .skill .percent {
+        margin-right: 2rem;
+        font-size: 1.5rem; }
+      #skills-main .body-text .skill .percent-bar {
+        width: 230px; }
+  #contact-main .side-title {
+    height: 450px; }
+  #contact-main .body-text {
+    padding: 4rem 2.5rem 3rem 2.5rem; }
+  #footer-youtube {
+    display: none; } }

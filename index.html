@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <script src="https://kit.fontawesome.com/7b255ad7e0.js" crossorigin="anonymous"></script>
+    <title>Cloud Web Training</title>
+</head>
+<body>
+
+  <!-- NAV bar -->
+
+  <nav id="main-nav">
+    <div class="container">
+      <ul>
+        <li><a onclick="smoothScrollHome()" id="nav-home" class="testCurrent">Home</a></li>
+        <li><a onclick="smoothScrollServices()" id="nav-services" class="testCurrent">Services</a></li>
+        <li><a onclick="smoothScrollAbout()" id="nav-about" class="testCurrent">About</a></li>
+        <li><a onclick="smoothScrollNews()" id="nav-news" class="testCurrent">News</a></li>
+        <li><a onclick="smoothScrollSkills()" id="nav-skills" class="testCurrent">Skills</a></li>
+        <li><a onclick="smoothScrollContact()" id="nav-contact" class="testCurrent">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Intro Slider -->
+
+  <ul class="slides" id="top-slides">
+      <input type="radio" name="radio-btn" id="img-1" checked />
+      <li class="slide-container">
+          <div class="slide">
+              <img src="./img/main1.jpg" />
+          </div>
+          <div class="nav">
+              <label for="img-6" class="prev">&#x2039;</label>
+              <label for="img-2" class="next">&#x203a;</label>
+          </div>
+      </li>
+  
+      <input type="radio" name="radio-btn" id="img-2" />
+      <li class="slide-container">
+          <div class="slide">
+            <img src="./img/main2.jpg" />
+          </div>
+          <div class="nav">
+              <label for="img-1" class="prev">&#x2039;</label>
+              <label for="img-3" class="next">&#x203a;</label>
+          </div>
+      </li>
+  
+      <input type="radio" name="radio-btn" id="img-3" />
+      <li class="slide-container">
+          <div class="slide">
+            <img src="./img/main3.jpg" />
+          </div>
+          <div class="nav">
+              <label for="img-2" class="prev">&#x2039;</label>
+              <label for="img-4" class="next">&#x203a;</label>
+          </div>
+      </li>
+  
+      <input type="radio" name="radio-btn" id="img-4" />
+      <li class="slide-container">
+          <div class="slide">
+            <img src="./img/main4.jpg" />
+          </div>
+          <div class="nav">
+              <label for="img-3" class="prev">&#x2039;</label>
+              <label for="img-5" class="next">&#x203a;</label>
+          </div>
+      </li>
+
+      <li class="nav-dots">
+        <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+        <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+        <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+        <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+      </li>
+  </ul>
+
+  <!-- Index Title -->
+
+  <section>
+    <div class="main-title">
+        <h3>Welcome to...</h3>
+        <h1><span>C</span>loud Web Training</h1>
+    </div>
+  </section>
+
+  <!-- ---------- SERVICES ------------ -->
+
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="side-title">
+        <div class="side-container">
+          <h2 class="side-header">What We Offer</h2>
+          <div class="side-text">Our services</div>
+        </div>
+      </div>
+      <div class="services-div">
+        <h2 class="services-title">Our services for your needs</h2>
+        <p> In the past, people would run applications or programs from software downloaded on a physical computer or servers in their own building, cloud computing allows people access to the same kinds of applications through the internet.</p>
+        <p>When you update your Facebook status, you’re using cloud computing. Checking your bank balance on your phone? You’re in the cloud again. Chances are you rely on cloud computing to solve the majority of your daily issues and tasks.</p>
+        <p>Here at Cloud Web Training we help our customers see the benefits of utilising the cloud, we help them choose the best solution for their business and train them on the basic services of the cloud.</p>
+        <div class="services-list">
+          <h3>We Provide...</h3>
+          <div class="list"><i class="fas fa-dot-circle"></i>Free Consultancy</div>
+          <div class="list"><i class="fas fa-dot-circle"></i>Cloud Training</div>
+          <div class="list"><i class="fas fa-dot-circle"></i>Cloud Provider Knowledge</div>
+          <div class="list"><i class="fas fa-dot-circle"></i>Cloud Services Insight</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax animation text 1 -->
+
+  <header class="scroll-main">
+    <h1>Our Goal for 2020</h1>
+    <p>"Cloud is about how you do computing, not where you do computing." - Paul Maritz</p>
+  </header>
+
+  <!-- ----------- ABOUT ------------- -->
+
+  <section>
+    <main class="scroll-body">
+      <div id="about-main">
+        <div class="side-title">
+          <div class="side-container">
+            <h2 class="side-header">Who Are We</h2>
+            <div class="side-text">About our company</div>
+          </div>
+        </div>
+        <div class="body-text" id="about-nav-start">
+          <p class="about-body-main">We have big plans for 2020, we plan to not only innovate new technologies but redefine the industry as a whole. We plan to expand our reach across the globe and seek out new and talented members of staff to help promote and grow our company. We will help companies design, build and implement new ideas which will undoubtedly shape the industry for years to come.</p>
+          <div class="company-facts">
+            <div class="facts">
+              <div class="fact-body">
+                <div class="fact-icon"><i class="fas fa-cloud fa-3x"></i></div>
+                <div class="fact-text">We have experience in multiple cloud platforms and can help you choose which one is best for you depending on your needs</div>
+              </div>
+              <div class="fact-body">
+                <div class="fact-icon"><i class="fas fa-globe-americas fa-3x"></i></div>
+                <div class="fact-text">We have offices around the globe, check us out and why not call in for some free consulting</div>
+              </div>
+              <div class="fact-body">
+                <div class="fact-icon"><i class="fas fa-laptop fa-3x"></i></div>
+                <div class="fact-text">We are able to provide some cloud platform training to give your company an insight to the new technologies and services available</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <!-- Parallax animation text 2 -->
+
+  <header class="scroll-main-2">
+    <h1>Stick with us to keep up to date</h1>
+    <p>"With the cloud, individuals and small businesses can snap their fingers and instantly set up enterprise-class services." - Roy Stephan</p>
+  </header>
+
+  <!-- ----------- News -------------------- -->
+
+  <section>
+    <main class="scroll-body-second">
+      <div id="news-main">
+        <div class="side-title">
+          <div class="side-container">
+            <h2 class="side-header">Our Company Blogs</h2>
+            <div class="side-text">Read our news on all things cloud related</div>
+          </div>
+        </div>
+        <div class="body-text">
+          <p class="about-body-main">We have big plans for 2020, we plan to not only innovate new technologies but redefine the industry as a whole. We plan to expand our reach across the globe and seek out new and talented members of staff to help promote and grow our company. We will help companies design, build and implement new ideas which will undoubtedly shape the industry for years to come.</p>
+          <div class="blogs">
+            <div class="blog">
+              <div class="blog-date">February 17, 2020</div>
+              <h3 class="blog-title"><a href="#">DataWorks Summit</a></h3>
+              <div class="blog-body">The DataWorks conferences are hosted by Hortonworks, an open-source data management platform provider. They focus on how organisations are using advanced analytics, data science, and artificial intelligence to transform the way they deliver customer and product experiences.</div>
+            </div>
+            <div class="blog">
+              <div class="blog-date">January 10, 2020</div>
+              <h3 class="blog-title"><a href="#">Microsoft Ignite | The Tour</a></h3>
+              <div class="blog-body">Microsoft is taking its popular Ignite conference on the road this year, offering developers and tech professionals a venue to explore the latest developer tools and cloud technologies.</div>
+            </div>
+            <div class="blog">
+              <div class="blog-date">December 24, 2019</div>
+              <h3 class="blog-title"><a href="#">AWS re:Invent promises to be the biggest cloud event of the year</a></h3>
+              <div class="blog-body">Yes, this is the biggest, craziest, most jam packed conference in cloud… But why should you attend? Jeff Barr has the best answer to that over on the official AWS re:Invent site.</div>
+            </div>
+            <div class="blog">
+              <div class="blog-date">November 02, 2019</div>
+              <h3 class="blog-title"><a href="#">O'Reilly Velocity Conference</a></h3>
+              <div class="blog-body">Velocity focuses on cloud-native systems and is devoted to cloud native infrastructure, DevOps, Kubernetes, and more.</div>
+            </div>
+            <div class="blog">
+              <div class="blog-date">October 17, 2019</div>
+              <h3 class="blog-title"><a href="#">Cloud Data Summit</a></h3>
+              <div class="blog-body">A virtual forum emphasises the practical aspects of cloud computing and focuses on the experience of companies that have migrated their data platforms from on-premise operations to the cloud.</div>
+            </div>
+            <div class="blog">
+              <div class="blog-date">September 20, 2019</div>
+              <h3 class="blog-title"><a href="#">CloudNative - London</a></h3>
+              <div class="blog-body">This conference covers everything cloud-native, from containers and schedulers to Kubernetes and DevOps.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
+
+
+  <!-- ------------ SKILLS ------------- -->
+
+  <section id="skills">
+    <div id="skills-main">
+      <div class="side-title">
+        <div class="side-container">
+          <h2 class="side-header">Our Skills</h2>
+          <div class="side-text">What we specialise in</div>
+        </div>
+      </div>
+      <div class="body-text">
+        <p class="skills-body-main">Each year cloud computing is growing at an exponential rate and it's not always easy to keep up. Amazon Web Services alone now have a total of 175 fully featured services. Our aim is to give you a basic understanding of the core features and how to make the most out of the cloud platforms for your business needs.</p>
+        <div class="skills-chart">
+          <div class="skill">
+            <div class="percent">85%</div>
+            <div class="name">Google Cloud Platform
+              <div class="percent-bar">
+                <div id="google"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="percent">90%</div>
+            <div class="name">Amazon Web Services
+              <div class="percent-bar">
+                <div id="aws"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="percent">75%</div>
+            <div class="name">Digital Ocean
+              <div class="percent-bar">
+                <div id="digital"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="percent">80%</div>
+            <div class="name">Serverless Computing
+              <div class="percent-bar">
+                <div id="serverless"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------ CONTACT ------------- -->
+
+  <section id="contact" class="contact-top-nav">
+    <div id="contact-main">
+      <div class="side-title">
+        <div class="side-container">
+          <h2 class="side-header">Contact Us</h2>
+          <div class="side-text">Have a question? Get in touch</div>
+        </div>
+      </div>
+      <div class="body-text">
+        <p class="contact-body-main">Have a question? Fill out the form below and we'll get back in touch with you</p>
+        <div class="contact-form">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <textarea name="" placeholder="Message.."></textarea>
+          <button class="btn-contact">Send</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------- FOOTER -------------- -->
+
+  <footer id="main-footer">
+    <div class="container">
+      <div class="socialmedia">
+        <a href="https://www.linkedin.com/in/jake-knight-811240b1/" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a>
+        <a href="https://twitter.com/?lang=en-gb" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+        <a id="footer-youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
+      </div>
+    </div>
+    <div class="signature">Created by <span>Jake Knight</span> &copy;2020</div>
+  </footer>
+
+  <!-- Local JS -->
+  
+  <script src="main.js"></script>
+
+</body>
+</html>
